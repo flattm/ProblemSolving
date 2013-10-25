@@ -1,0 +1,355 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    padding: 0px;
+    color: #696969;
+    /*background-image: url('~/Images/backTile.png);
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;*/
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2
+{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0px;
+    padding: 5px;
+    font-family: Century Gothic;
+    color: #2B4559;
+    text-transform: none;
+}
+
+h2, h3, h4, h5, h6
+{
+    font-family: Century Gothic;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0E273A;
+}
+
+h2
+{
+        text-decoration: underline;
+}
+
+h3, h4
+{
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h4
+{
+    text-align: left;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+
+    max-width: 800px;
+    min-width: 720px;
+    margin: Auto;
+    padding: 20px;
+    border-radius: 20px;
+    -pie-background: linear-gradient(#0E273A, #7B97AC);
+    box-shadow: 10px 10px 20px #888;
+    behavior: url(PIE.htc);
+}
+
+.header
+{
+    border: 0px solid #2B4559;
+    margin-bottom: 5px;
+    background-color: #eee;
+    border-radius: 20px;
+    behavior: url(PIE.htc);
+}
+
+.main
+{
+    width: auto;
+}
+
+.rdo
+{
+    margin-bottom: 5px;
+    height: 20px;
+    
+}
+
+.content
+{
+    width: auto;
+    padding: 10px;
+    min-height: 420px;
+    border: 0px solid #eee;
+    -pie-background: linear-gradient(#eee, #fff);
+    border-radius: 20px;
+    behavior: url(PIE.htc);    
+}
+
+.optionsleft
+{
+    /*background-color: White;
+    border-radius: 20px;
+    behavior: url(PIE.htc); */
+    padding: 10px;  
+    /*box-shadow: 5px 5px 10px;*/
+    width: auto;
+}
+
+.subCat
+{
+    color: #0E273A;
+    font-weight: bold
+}
+
+.options
+{
+    /*background-color: White;
+    border-radius: 20px;
+    behavior: url(PIE.htc); */
+    padding: 10px;  
+    /*box-shadow: 5px 5px 10px;*/
+    width: auto;
+    text-align: center;
+}
+
+.members
+{
+   margin-left: 20px; 
+}
+
+.tbBucks
+{
+    margin-left: 25px;
+}
+
+.query
+{
+    width: 100%;
+}
+
+.individual
+{
+    width: 175px;
+}
+
+.filedheader
+{
+    padding-right: 10px;
+    font-weight: bold;
+    padding-left: 35px;
+    color: #0E273A;
+}
+
+.submit
+{
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+.button
+{
+    border-color: #0E273A;
+    border-width: 1px;
+}
+
+.errorMsg
+{
+    font-weight: bold;
+    color: Red;
+}
+
+.validator
+{
+    color: Red;
+    font-weight: bold;
+}
+
+
+.names
+{
+    padding-bottom: 5px;
+}
+
+.datelabel
+{
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.calbutton
+{
+    vertical-align: middle;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    width: auto;
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-left: 40px;  
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    color: #dde4ec;
+    background-color: #203A4D;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #eee;
+    color: #2B4559;
+    text-decoration: none;
+    border: 0px, solid;
+    border-radius: 8px;
+    behavior: url(PIE.htc);
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
